@@ -1,0 +1,32 @@
+{
+  "name": "appointmentbookingsbackend",
+  "version": "1.0.0",
+  "description": "To create appointment bookings backend using nodejs expressjs mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunkumargt/AppointmentBookingsBackend.git"
+  },
+  "keywords": [
+    "appointment",
+    "bookings",
+    "appointmentbookings",
+    "backend",
+    "mongodb",
+    "expressjs",
+    "nodejs"
+  ],
+  "author": "Mr.Cool Phisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunkumargt/AppointmentBookingsBackend/issues"
+  },
+  "homepage": "https://github.com/arunkumargt/AppointmentBookingsBackend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
+  }
+}
