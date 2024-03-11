@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const config = require('./config/db.config');
 // Routers
-const userRouter = require('./routings/user.routings');
+const userRouter = require('./routings/user.routing');
 const constants = require('./utils/constants');
 
 const app = express();
@@ -20,7 +20,7 @@ mongoose.connect(config.dbUrl, {
 app.use(express.json());
 
 app.use('/users', userRouter);
-app.use('/', )
+// app.use('/', )
 
 const PORT = 3000;
 app.listen(PORT, () => {
